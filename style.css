@@ -1,0 +1,196 @@
+.site-nav {
+  background: #212529;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-nav .brand {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-nav .nav-links a {
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.site-nav .nav-links a.active,
+.site-nav .nav-links a:hover {
+  color: #fff;
+}
+
+.page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.content-block {
+  margin-bottom: 30px;
+}
+
+.content-block h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.custom-section {
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.custom-section h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.custom-section .subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.custom-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.custom-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.custom-card img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+}
+
+.custom-card h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+}
+
+.custom-card p {
+  font-size: 13px;
+  color: #555;
+}
+
+.price {
+  font-weight: bold;
+  color: #0d6efd;
+  display: block;
+  margin-top: 8px;
+}
+
+.btn-primary,
+.btn-outline {
+  border: 1px solid #0d6efd;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #0b5ed7;
+}
+
+.simple-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.simple-table th,
+.simple-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.simple-table th {
+  background-color: #f8f9fa;
+}
+
+.simple-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.field-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.field-group input,
+.field-group select,
+.field-group textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .custom-section {
+    text-align: left;
+  }
+
+  .custom-section h2 {
+    font-size: 26px;
+  }
+
+  .custom-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .custom-card {
+    flex: 1 1 calc(50% - 15px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .custom-section {
+    text-align: center;
+  }
+
+  .custom-section h2 {
+    font-size: 30px;
+  }
+
+  .custom-card {
+    flex: 1 1 calc(25% - 15px);
+  }
+}
+
+.site-footer {
+  background: #212529;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 14px;
+}

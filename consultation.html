@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aroma Essence - Consultation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <a class="brand" href="index.html">Aroma Essence</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="consultation.html">Consultation</a>
+      </div>
+    </nav>
+
+    <main class="page-container">
+      <section class="content-block">
+        <h2>Perfume Price List</h2>
+        <table class="simple-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Amber Midnight</td>
+              <td>Eau de Parfum</td>
+              <td>$49.00</td>
+            </tr>
+            <tr>
+              <td>Citrus Breeze</td>
+              <td>Eau de Toilette</td>
+              <td>$39.00</td>
+            </tr>
+            <tr>
+              <td>Ocean Mist</td>
+              <td>Eau de Parfum</td>
+              <td>$45.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="content-block">
+        <h2>Sample Request Form</h2>
+        <form action="#" method="post" class="simple-form">
+          <div class="field-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" required />
+          </div>
+
+          <div class="field-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+
+          <div class="field-group">
+            <label for="scent">Preferred Scent</label>
+            <select id="scent">
+              <option value="amber">Amber Midnight</option>
+              <option value="citrus">Citrus Breeze</option>
+              <option value="ocean">Ocean Mist</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label for="message">Notes</label>
+            <textarea id="message" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>&copy; 2026 Aroma Essence. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
